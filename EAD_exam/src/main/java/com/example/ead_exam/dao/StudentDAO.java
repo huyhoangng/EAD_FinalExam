@@ -21,4 +21,10 @@ public class StudentDAO {
         em.close();
         return students;
     }
+    public static Student findById(int studentId) {
+        EntityManager em = JpaUtil.getEntityManager();
+        Student student = em.find(Student.class, studentId);
+        em.close();
+        return student;
+    }
 }
