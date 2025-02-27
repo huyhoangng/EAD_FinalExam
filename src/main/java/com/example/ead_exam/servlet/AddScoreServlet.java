@@ -1,7 +1,10 @@
 package com.example.ead_exam.servlet;
 
 import com.example.ead_exam.dao.StudentDAO;
+import com.example.ead_exam.dao.StudentScoreDAO;
+import com.example.ead_exam.dao.SubjectDAO;
 import com.example.ead_exam.entity.Student;
+import com.example.ead_exam.entity.StudentScore;
 import com.example.ead_exam.entity.Subjects;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
